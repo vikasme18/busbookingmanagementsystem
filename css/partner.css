@@ -1,0 +1,30 @@
+.partner {
+  margin: 50px auto 60px; 
+  width: 100%;
+}
+
+.partner h2 {
+  text-align: center;
+}
+
+.partner-content {
+  margin: 10px;
+}
+
+.partner-image {
+  width: 300px;
+  height: 158px;
+}
+
+.partner-inner {
+  display: flex; 
+  justify-content: center;
+}
+
+
+@media (max-width: 900px) {
+  .partner-inner {
+    align-items: center;
+    flex-direction: column;
+  }
+}

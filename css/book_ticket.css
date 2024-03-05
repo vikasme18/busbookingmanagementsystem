@@ -1,0 +1,170 @@
+.warning {
+  margin-bottom: 0px;
+  padding: 11px 0px 11px 20px;
+  font-size: 12px;
+  background: #fef6e9;
+  color: #ae7632;
+}
+
+.book-detail-heading {
+  margin-right: 20px;
+}
+
+.warning p {
+  margin: 0;
+  display: inline;
+}
+.warning img {
+  position: relative;
+  bottom: 2px;
+}
+
+.psg-select-info {
+  margin: 10px 0 0 20px;
+  font-style: italic;
+}
+
+.psg-info {
+  display: flex;
+  justify-content: center;
+}
+
+.psg-info .psg-input {
+  padding: 8px;
+  margin: 10px 20px;
+}
+
+.psg-age-info {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.psg-age-info .psg-age {
+  padding: 8px;
+  margin: 10px 20px;
+}
+
+.psg-age-half {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.psg-gen-info {
+  display: flex;
+  direction: row;
+  width: 50%;
+  font-size: 1.6rem;
+}
+
+.psg-gen-info label {
+  padding: 0;
+  font-weight: 400;
+  position: relative;
+  top: 4px;
+}
+
+.gen-title, .gen-male, .gen-female {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.gen-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.psg-gen-half .gen-radio {
+  position: relative;
+  margin: 0px 3px 0 7px;
+}
+
+.psg-gen-half {
+  display: flex;
+  flex-direction: row;
+  margin: 0 20px;
+  width: 100%;
+}
+
+.psg-email-phone-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.psg-email-phone-info .psg-email-input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 10px 20px;
+  width: 100%;
+}
+
+.psg-email-phone-info .psg-phone-input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 10px 20px;
+  width: 100%;
+}
+
+.psg-email, .psg-phone {
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.total-fare {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-fare .fare-title {
+  margin: 10px 0 10px 20px;
+  font-size: 1.6rem;
+}
+
+.total-fare .fare-value {
+  margin: 10px 20px 10px 0;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.ticket-heading {
+  margin-left: 20px;
+}
+
+.btn-pay {
+  margin: 10px;
+}
+
+.pay-now {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0 0 1rem 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .psg-email-phone-info{
+    flex-direction: column;
+  }
+
+  .psg-age-info {
+    flex-direction: column;
+  }
+
+  .psg-age-half {
+    width: 100%;
+  }
+
+  .psg-gen-info{
+    width: 100%;
+  }
+}

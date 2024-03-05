@@ -1,0 +1,103 @@
+.book-info {
+  height: 50px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.book-detail-heading {
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.left-bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #1E73D7;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.right-bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #1E73D7;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.hrtz-line {
+  display: inline-block;
+  width: 84%;
+  height: 1px;
+  border-top: 2px dashed #022A5D;
+  top: 9.5px;
+  left: 10px;
+}
+
+.tavel-time {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 600;
+  position: relative;
+  bottom: 4px;
+}
+
+.travel-direction {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-grid, .psg-grid {
+  padding: 0;
+}
+
+.psg-detail-grid {
+  margin-top: 0;
+}
+
+
+.main-travel-direction {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 8px;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f8d7da; /* Red */
+  color: black;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: black;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.alert {
+  opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+}

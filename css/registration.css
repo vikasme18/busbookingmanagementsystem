@@ -1,0 +1,36 @@
+.regi-btn {
+  width: 120px;
+  margin: auto 10px;
+}
+
+.regi-bus-grid {
+  display: flex; 
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.regi-bus-img {
+  margin: 10px;
+  height: 600px;
+}
+
+.regi-btn-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.regi-heading {
+  display: flex;
+  font-family: 'Heebo'; 
+  justify-content: center;
+}
+
+@media (min-width: 0) and (max-width: 1200px) {
+
+  .regi-bus-img {
+    display: none;
+    margin: 0;
+    height: 0;
+  }
+
+}
